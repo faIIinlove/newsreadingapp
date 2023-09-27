@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1081582634653",
+    "project_id": "asm-reactnative-79647",
+    "storage_bucket": "asm-reactnative-79647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081582634653:android:52669680203fa0cc8a3674",
+        "android_client_info": {
+          "package_name": "com.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081582634653-vii2mqc2a8ut5413lptlf9qasqgju9ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.assignment",
+            "certificate_hash": "846d2ea6962c66694f950d4a9daae36980a58a75"
+          }
+        },
+        {
+          "client_id": "1081582634653-436h4tqlftsd1251l6rabmp5e5s73885.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgP3Nmg1RZLWfaZnHugucO6hvsGPVbdMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081582634653-436h4tqlftsd1251l6rabmp5e5s73885.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
