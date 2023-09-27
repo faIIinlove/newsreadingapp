@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.assignment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\phucn\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\phucn\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:5:5-24:19
+16        android:name="com.assignment.MainApplication"
+16-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:6:7-38
+17        android:allowBackup="false"
+17-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\phucn\.gradle\caches\transforms-3\3994986e4b6f29f228dfe8fb9122f0d7\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:8:7-41
+21        android:label="@string/app_name"
+21-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:7:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:9:7-52
+23        android:theme="@style/AppTheme"
+23-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:11:7-38
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:8:9-44
+25        <activity
+25-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:11:9-111
+26            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+26-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:11:19-83
+27            android:exported="false" />
+27-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\debug\AndroidManifest.xml:11:84-108
+28        <activity
+28-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:12:7-23:18
+29            android:name="com.assignment.MainActivity"
+29-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:13:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+30-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:15:9-118
+31            android:exported="true"
+31-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:18:9-32
+32            android:label="@string/app_name"
+32-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:14:9-41
+33            android:launchMode="singleTask"
+33-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:16:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:17:9-51
+35            <intent-filter>
+35-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:20:13-65
+36-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:21:13-73
+38-->C:\Users\phucn\Downloads\newsreadingapp\android\app\src\main\AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+43            android:name="com.imagepicker.ImagePickerProvider"
+43-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+44            android:authorities="com.assignment.imagepickerprovider"
+44-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+45            android:exported="false"
+45-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+46            android:grantUriPermissions="true" >
+46-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+47            <meta-data
+47-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+49                android:resource="@xml/imagepicker_provider_paths" />
+49-->[:react-native-image-picker] C:\Users\phucn\Downloads\newsreadingapp\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+50        </provider>
+51
+52        <activity
+52-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+53            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+53-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+54            android:excludeFromRecents="true"
+54-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+57        <!--
+58            Service handling Google Sign-In user revocation. For apps that do not integrate with
+59            Google Sign-In, this service will never be started.
+60        -->
+61        <service
+61-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+62            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+62-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+63            android:exported="true"
+63-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+64            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+64-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+65            android:visibleToInstantApps="true" />
+65-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\phucn\.gradle\caches\transforms-3\f171711de0fcf1eb527daf711dc70142\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\phucn\.gradle\caches\transforms-3\4f703550170bfa754497acecfa6ac4ec\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\phucn\.gradle\caches\transforms-3\4f703550170bfa754497acecfa6ac4ec\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\phucn\.gradle\caches\transforms-3\4f703550170bfa754497acecfa6ac4ec\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\phucn\.gradle\caches\transforms-3\4f703550170bfa754497acecfa6ac4ec\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\phucn\.gradle\caches\transforms-3\73ccaedd09882023995804e04143c030\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\phucn\.gradle\caches\transforms-3\73ccaedd09882023995804e04143c030\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\phucn\.gradle\caches\transforms-3\73ccaedd09882023995804e04143c030\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+78            android:authorities="com.assignment.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\phucn\.gradle\caches\transforms-3\c1cd3487ee93faa69a46c921c06f102e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phucn\.gradle\caches\transforms-3\afe3a0cc82c76a7c864d2efd8324d92e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phucn\.gradle\caches\transforms-3\afe3a0cc82c76a7c864d2efd8324d92e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\phucn\.gradle\caches\transforms-3\afe3a0cc82c76a7c864d2efd8324d92e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+86        </provider>
+87    </application>
+88
+89</manifest>
